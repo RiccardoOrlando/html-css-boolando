@@ -71,6 +71,40 @@ header {
   padding-top: 25px;
 }
 
+/*------------------------
+        MAIN
+---------------------- */
 
+main .container img {
+    max-width: 450px;
+    min-height: 600px;
+  }
+  
+  main .container {
+    display: flex;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 60px;
+  }
+  
+  .whitesquare{
+      width: 70px;
+      height: 70px;
+      background-color: white;
+      position: absolute;
+      right: 0;
+  }
+  
+  .contenitore1,
+  .contenitore2,
+  .contenitore3,
+  .contenitorebotleft,
+  .contenitorebot,
+  .contenitorebotright{
+      position: relative;
+  }
 
 
