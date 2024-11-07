@@ -18,7 +18,7 @@
 }
 
 i {
-  padding-right: 5px;
+  padding-right: 10px;
 }
 
 header {
@@ -28,18 +28,18 @@ header {
   position: sticky;
 }
 
-.hearts{
-    color: black;
-    font-size: 50px;
-    padding: 10px;
-    text-align: center;
+.hearts {
+  color: black;
+  font-size: 50px;
+  padding: 10px;
+  text-align: center;
 }
+
 
 
 /*------------------------
         HEADER
 ---------------------- */
-
 
 .container > .header-block {
   display: flex;
@@ -52,6 +52,7 @@ header {
   width: 40%;
   text-align: left;
   padding-top: 25px;
+  font-size: 20px;
 }
 
 .header-block > .Logo {
@@ -69,6 +70,7 @@ header {
   width: 40%;
   text-align: right;
   padding-top: 25px;
+  padding-right: 20px;
 }
 
 /*------------------------
@@ -76,35 +78,57 @@ header {
 ---------------------- */
 
 main .container img {
-    max-width: 450px;
-    min-height: 600px;
-  }
-  
-  main .container {
-    display: flex;
-    max-width: 1400px;
-    margin-left: auto;
-    margin-right: auto;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin-top: 60px;
-  }
-  
-  .whitesquare{
-      width: 70px;
-      height: 70px;
-      background-color: white;
-      position: absolute;
-      right: 0;
-  }
-  
-  .contenitore1,
-  .contenitore2,
-  .contenitore3,
-  .contenitorebotleft,
-  .contenitorebot,
-  .contenitorebotright{
-      position: relative;
-  }
+  max-width: 450px;
+  min-height: 600px;
+}
 
+main .container {
+  display: flex;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 60px;
+}
 
+.whitesquare {
+  width: 70px;
+  height: 70px;
+  background-color: white;
+  position: absolute;
+  right: 0;
+}
+
+.contenitore1,
+.contenitore2,
+.contenitore3,
+.contenitorebotleft,
+.contenitorebot,
+.contenitorebotright {
+  position: relative;
+}
+
+.discount-red {
+  position: absolute;
+  background-color: #ff0000;
+  color: white;
+  padding: 5px 10px;
+  bottom: 80px;
+}
+
+.sustainability {
+  position: absolute;
+  background-color: #008000;
+  color: white;
+  padding: 5px 10px;
+  bottom: 80px;
+}
+
+.red {
+  color: red;
+}
+
+.sbarred {
+  text-decoration: line-through;
+}
